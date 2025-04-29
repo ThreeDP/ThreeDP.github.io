@@ -68,9 +68,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Davy Paulino',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Me',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Projetos',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -92,11 +92,23 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Projetos',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Pung',
+              to: '/Pung',
+            },
+            {
+              label: 'Web Server',
+              to: '/docs/webserver',
+            },
+            {
+              label: 'Minishell',
+              to: '/docs/minishell',
+            },
+            {
+              label: 'MiniRobT',
+              to: '/docs/minirobt',
             },
           ],
         },
