@@ -95,6 +95,10 @@ const config: Config = {
           title: 'Projetos',
           items: [
             {
+              label: 'Me',
+              to: '/intro',
+            },
+            {
               label: 'Pung',
               to: '/Pung',
             },
@@ -127,23 +131,14 @@ const config: Config = {
               label: 'Leetcode',
               href: 'https://leetcode.com/u/DavyPaulino/',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
-              label: 'Blog',
+              label: 'blob',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Davy Paulino, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
