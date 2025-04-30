@@ -96,23 +96,23 @@ const config: Config = {
           items: [
             {
               label: 'Me',
-              to: '/intro',
+              to: '/docs/intro',
             },
             {
               label: 'Pung',
-              to: '/Pung',
+              href: 'https://www.davypaulino.me/Pung',
             },
             {
               label: 'Web Server',
-              to: '/docs/webserver',
+              to: '/docs/category/web-server---nginx-from-scratch',
             },
             {
               label: 'Minishell',
-              to: '/docs/minishell',
+              to: '/docs/category/minishelly---bash-from-scratch',
             },
             {
               label: 'MiniRobT',
-              to: '/docs/minirobt',
+              to: '/docs/category/minirobt---raytracing-render-from-scratch',
             },
           ],
         },
