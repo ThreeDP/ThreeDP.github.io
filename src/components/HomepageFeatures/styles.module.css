@@ -9,3 +9,18 @@
   height: 200px;
   width: 200px;
 }
+
+.listHome {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.listHome li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px; /* Espaçamento entre os itens */
+  border-bottom: solid 2px rgb(236, 236, 236);
+}

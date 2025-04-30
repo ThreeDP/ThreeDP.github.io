@@ -10,6 +10,13 @@
   overflow: hidden;
 }
 
+.background {
+  background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image'); /* Substitua pelo link da imagem */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

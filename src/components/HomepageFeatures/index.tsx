@@ -5,52 +5,52 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: string;
+  link?: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Desenvolvedor backend na Ticket',
+    Svg: "♥️",
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <ul className={styles.listHome}>
+        <li><b>.NET: </b> em arquitetura de microserviços, CQRS, DDD e clean arquitecture.</li>
+        <li><b>Datadog: </b>focando em monitoramento/alertas, logs e trace para resolução de problemas e APM perfomance da aplicação.</li>
+        <li><b>Azure Cloud: </b>para orquestrar containers com K8S, azure service bus para filas/tópicos e AD B2C com auth/.</li>
+        <li><b>Azure Devops: </b>aplicando metodologia SCRUM para gestão de projeto e CI/CD para deploy na Azure.</li>
+      </ul>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Projeto Pessoal @Pung',
+    Svg: "🏓",
+    link: "https://davypaulino.me/Pung/",
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <ul className={styles.listHome}>
+        <li><b>Django: </b> para o desenvolvimento das apis e consumers.</li>
+        <li><b>Docker Compose: </b>para orquestrar containers e provisionar a aplicação.</li>
+        <li><b>Redis: </b>para cache e gestão minimalista das filas responsaveis pelo estado do jogo.</li>
+        <li><b>Nginx: </b>como loadbalance e proxy.</li>
+        <li><b>Nextjs: </b>para construção do frontend.</li>
+        <li><b>Git e Github: </b>para construção de pipelines e versionamento de software.</li>
+      </ul>
     ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  }
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, link}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--6')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
+        <p style={{ fontSize: "60px", textShadow: "3px 3px 5px rgba(0, 0, 0.1, 0.2)" }}>{Svg}</p>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        {description}
+        {link !== null ? <a href={`link`}>{link}</a> : ""}
       </div>
     </div>
   );
