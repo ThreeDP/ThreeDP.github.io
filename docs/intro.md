@@ -3,45 +3,41 @@ sidebar_position: 1
 ---
 
 # Quem sou eu?
+> ### **Davy P. S. Dantas**  
+> Engenheiro de Software  
+> [davy.paulino.dantas@gmail.com](mailto:davy.paulino.dantas@gmail.com)   
+> **+55 35 93618-7983** |   
+> **São Paulo, Brasil**    
+> [Portfólio](#) | [GitHub](https://github.com/davypaulino) | [LinkedIn](https://www.linkedin.com/in/davypaulino/) | [LeetCode](https://leetcode.com/u/DavyPaulino/)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+---
 
-## Getting Started
+Sou um **engenheiro de software** com experiência em desenvolvimento **.NET**, focado em serviços em **nuvem Azure** (AKS, AD, ASB) e bancos de dados como **SQL Server** e **Redis**.  
+Com experiência em **observabilidade e monitoramento** com **Datadog**, utilizando Logs, APM e Traces.  
 
-Get started by **creating a new site**.
+--- 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 🎓 Formação Acadêmica
 
-### What you'll need
+- **📌 Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP** (Brasil)  
+  _Análise e Desenvolvimento de Sistemas - Tecnólogo | Fev 2024 - Jul 2025_
+- **📌 42 The Network** (Brasil)  
+  _Engenheiro de Software | Ago 2022 - Dez 2024_
+- **📌 SENAI A. Jacob Lafer** (Brasil)  
+  _Eletroeletrônica - Técnico | Fev 2013 - Nov 2015_
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## 💼 Experiência Profissional
 
-Generate a new Docusaurus site using the **classic template**.
+### **🖥️ Ticket | Estágio em Desenvolvimento de Software .NET** _(Jun 2024 - Atual)_  
+✅ Desenvolvimento de **APIs RESTful** e **worker services** em arquitetura de **microserviços .NET**  
+✅ **Implementação de testes unitários e integração** garantindo qualidade e confiabilidade  
+✅ Monitoramento e **observabilidade com Datadog** _(métricas, APM, logs, alertas e dashboards)_  
+✅ **Automatização de pipelines CI/CD** via **Azure DevOps**  
+✅ Colaboração em **Scrum/Kanban**, promovendo entregas ágeis  
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### **🎨 Mury Cartões | Desenvolvedor Front-end / Designer** _(Jun 2021 - Ago 2022)_  
+✅ **Redesenho de interfaces** com **JavaScript, TypeScript, CSS, SASS, HTML, Bootstrap e Git**  
+✅ Integração de **API RESTful**, reduzindo contatos com atendimento ao cliente em **30%**  
+✅ Aumento da satisfação do cliente em **45%** através da experiência aprimorada  

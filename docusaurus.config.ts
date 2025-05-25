@@ -66,7 +66,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'logo.svg',
     navbar: {
       title: 'Davy Paulino',
       logo: {
@@ -82,7 +82,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/ThreeDP',
+          href: 'https://github.com/davypaulino',
           label: 'GitHub',
           position: 'right',
         },
@@ -103,17 +103,9 @@ const config: Config = {
               href: 'https://www.davypaulino.me/Pung',
             },
             {
-              label: 'Web Server',
-              to: '/docs/category/web-server---nginx-from-scratch',
-            },
-            {
-              label: 'Minishell',
-              to: '/docs/category/minishelly---bash-from-scratch',
-            },
-            {
-              label: 'MiniRobT',
-              to: '/docs/category/minirobt---raytracing-render-from-scratch',
-            },
+              label: 'Minishelly',
+              to: '/docs/minishell',
+            }
           ],
         },
         {
@@ -125,14 +117,14 @@ const config: Config = {
             },
             {
               label: 'Github',
-              href: 'https://github.com/ThreeDP',
+              href: 'https://github.com/davypaulino',
             },
             {
               label: 'Leetcode',
               href: 'https://leetcode.com/u/DavyPaulino/',
             },
             {
-              label: 'blob',
+              label: 'Blog',
               to: '/blog',
             },
           ],
